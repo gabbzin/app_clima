@@ -18,7 +18,7 @@ body {
 .container {
     display: grid;
     place-items: center;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.285);
     border-radius: 20px;
     padding: 20px;
@@ -32,8 +32,25 @@ body {
     border: 1px solid white;
     border-radius: 10px;
     font-size: 16px;
+    margin: auto;
 }
 
 #caixa-pesquisa {
     color: white;
+}
+
+.informacoes img {
+    margin: auto;
+    max-width: 45vw;
+    padding: 20px;
+}
+
+#temperatura {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
+#temperatura > span {
+    font-size: 1.5em;
 }
